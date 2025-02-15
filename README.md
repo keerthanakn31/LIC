@@ -20,7 +20,7 @@
 
 **DC Analysis**
 
-![Image](https://github.com/user-attachments/assets/a084705b-8cc9-47b3-8ba6-8351243a648b)
+![Image](https://github.com/user-attachments/assets/c8701d8c-b1ca-492e-8900-68344b5a2a61)
 ![Image](https://github.com/user-attachments/assets/043ac623-a42c-4bf2-80a9-9e11be691923)
 
 <p>
