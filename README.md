@@ -1,5 +1,6 @@
 # EXPERIMENT 1
 **Transient AC and DC analysis of common source ampliflier**
+
 ![Image](https://github.com/user-attachments/assets/259790f8-36fe-4578-bf2a-7c00f236bd80)
 <p> The circuit represents the common source ampliflier. To determine the Dc,Ac and Transient analysis of the CS ampliflier circuit.</p> <br>
 
@@ -18,11 +19,23 @@
 </p> <br>
 
 **DC Analysis**
-![Image](https://github.com/user-attachments/assets/b2b86928-85a9-4c8a-911e-522065dd8f57)
-![Image](https://github.com/user-attachments/assets/043ac623-a42c-4bf2-80a9-9e11be691923)
-<p>
 
-  
-</p>
+![Image](https://github.com/user-attachments/assets/a084705b-8cc9-47b3-8ba6-8351243a648b)
+![Image](https://github.com/user-attachments/assets/043ac623-a42c-4bf2-80a9-9e11be691923)
+
+<p>
+From the analysis we got<br> 
+Vout =    <br>
+Vin =     <br>
+Id =      <br>
+ If the power dessipation is 100um  across the register ,then 
+ currengt  throught the resister is<br>
+ Id = 100um/1.8 =55.5um<br>
+ The output loadline is given by <br>
+ Vout =Vdd-(Id-Rd)<br>
+ Rd=(1.8-1.674)/55.5um<br>
+   =2.751k ohms<br>
+</p> <br>
+
 
 
