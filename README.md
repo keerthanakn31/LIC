@@ -1,6 +1,6 @@
 # EXPERIMENT 1
 **Transient AC and DC analysis of common source ampliflier**
-![Image](https://github.com/user-attachments/assets/b2b86928-85a9-4c8a-911e-522065dd8f57)
+
 <p> The circuit represents the common source ampliflier. To determine the Dc,Ac and Transient analysis of the CS ampliflier circuit.</p> <br>
 
 **COMPONENTS**
@@ -18,6 +18,10 @@
 </p> <br>
 
 **DC Analysis**
-
+![Image](https://github.com/user-attachments/assets/b2b86928-85a9-4c8a-911e-522065dd8f57)
+![Image](https://github.com/user-attachments/assets/043ac623-a42c-4bf2-80a9-9e11be691923)
+<p>
+  
+</p>
 
 
