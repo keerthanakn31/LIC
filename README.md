@@ -37,5 +37,49 @@ Id =      <br>
    =2.751k ohms<br>
 </p> <br>
 
+<p>
+  Now replace the resister value by Rd = 2.751891k ohm
+  Since the Calculated current doesnot match the simulated value, maintain the MOSFET length 180nm and vary the width untill the required current.  
+</p>
+
+<table>
+  <tr>
+    <td>Length</td>
+    <td>Width</td>
+    <td>Id</td>
+  </tr>
+  <tr>
+    <td>180nm</td>
+    <td>1um</td>
+    <td>0.000148351</td>
+  </tr>
+  <tr>
+  <td>180nm</td>
+  <td>0.1um</td>
+  <td>4.76342e-05	</td>
+  </tr><br>
+  <tr>
+    <td>180nm</td>
+    <td>0.19</td>
+    <td>5.36419e-05	</td>
+  </tr>
+  
+  <tr>
+    <td>180nm</td>
+    <td>0.21um</td>
+    <td> 5.56616e-05</td>
+  </tr>
+</table><br>
+
+<p>
+   The Dc operating point confirms that NMOS operates in saturation region.<br>
+   Vds = Vd-Vs = -0 =  <br>
+  Vov + Vgs-Vth =0.9-0.36 =0.54V<br>
+  Vds>(Vgs-Vth)<br>
+</p>
+
+
+**AC ANALYSIS**
+
 
 
