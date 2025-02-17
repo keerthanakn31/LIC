@@ -123,8 +123,8 @@ Hence Q point is (VDS,ID)=(1.688V,55.5um)<br>
 
 
 <p>
-  Gain = Vin/Vout<br>
-  AV= 0.5625 <br>
+  Gain = Vout/ Vin<br>
+  AV= 1.77 <br>
   This matches the theoritical value which is calculated but Av = gmRd.<br>
   where gm+ KnVov<br>
   From graph we can observe that there is 180 degree phase shift which is exhibitied by CS ampliflier.
@@ -144,7 +144,7 @@ These analyses are essential for designing and evaluating the performance of a c
   Vout= 1.68879V  <br>
   Id=  5.56046e-05     <br>
   Vin= 950mV   <br>
-  Gain= 0.5625   <br>
+  Gain= 1.77   <br>
   
 </p>
 
