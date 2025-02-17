@@ -20,8 +20,8 @@
 
 **DC Analysis**
 
+![Image](https://github.com/user-attachments/assets/73102711-c45c-461e-905f-f680312c963b)
 ![Image](https://github.com/user-attachments/assets/c8701d8c-b1ca-492e-8900-68344b5a2a61)
-![Image](https://github.com/user-attachments/assets/043ac623-a42c-4bf2-80a9-9e11be691923)
 
 <p>
 From the analysis we got<br> 
@@ -107,6 +107,22 @@ Id =      <br>
   
 </p><br>
 
+**INFERENCE**
+<p>
+  1.Diode connected MOSFET will always be in the Saturation region
+  2.From DC analysis we get the dc operation point and confirms whether the mosfet is in saturation region 
+  3. Transient amalysis shows how the mosfet behave for the time varying Ac signal (sinewave)
+  4. It shows that ampliflied output with phase shift of 180 degree 
+</p><br>
+
+**RESULT**
+<p>
+  Vout=
+  Id=
+  Vin=
+  Gain=
+  
+</p>
 
 
 
