@@ -117,10 +117,10 @@ Id =      <br>
 
 **RESULT**
 <p>
-  Vout=
-  Id=
-  Vin=
-  Gain=
+  Vout=   <br>
+  Id=     <br>
+  Vin=    <br>
+  Gain=   <br>
   
 </p>
 
