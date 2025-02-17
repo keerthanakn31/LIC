@@ -95,7 +95,7 @@ Id =      <br>
 ![Image](https://github.com/user-attachments/assets/ae8bf8dd-43b9-4b36-98f7-f1d999f7a36c)
 
 <p>
-  In AC Analysis we determine the gain of the circuit. For input we give sinusoidal voltage signal where the DC offset is 0.9v peak voltage Vpeak is 50mv, Frequency is 1kHz and AC amplitude is 1V. set the stop time to 3ms.
+  In Transient  Analysis we determine the gain of the circuit. For input we give sinusoidal voltage signal where the DC offset is 0.9v peak voltage Vpeak is 50mv, Frequency is 1kHz and AC amplitude is 1V. set the stop time to 3ms.
 </p><br>
 
 <p>
