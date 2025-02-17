@@ -1,7 +1,9 @@
-# EXPERIMENT 1
+# EXPERIMENT 1 - circuit 1:
+
 **Transient AC and DC analysis of common source ampliflier**
 
 ![Image](https://github.com/user-attachments/assets/259790f8-36fe-4578-bf2a-7c00f236bd80)
+
 <p> The circuit represents the common source ampliflier. To determine the Dc,Ac and Transient analysis of the CS ampliflier circuit.</p> <br>
 
 **COMPONENTS**
@@ -21,13 +23,15 @@
 **DC Analysis**
 
 
+For DC analysis we need to determine the operating point.
+
 ![Image](https://github.com/user-attachments/assets/5451a73e-98a1-4619-85a9-bf847ceab48a)
 ![Image](https://github.com/user-attachments/assets/73102711-c45c-461e-905f-f680312c963b)
 
 
 <p>
 From the analysis we got<br> 
-Vout =1.68879V    <br>
+Vout = 1.68879V   <br>
 Vin =950mV <br>
 Id = 5.56046e-05     <br>
  If the power dessipation is 100um  across the register ,then 
@@ -75,29 +79,48 @@ Id = 5.56046e-05     <br>
 
 <p>
    The Dc operating point confirms that NMOS operates in saturation region.<br>
-   Vds = Vd-Vs = -0 =  <br>
-  Vov + Vgs-Vth =0.9-0.36 =0.54V<br>
-  Vds>(Vgs-Vth)<br>
+    VDD = IDRd+Vout  <br>
+     VDD=1.8<br>
+     ID=55.5um<br>
+     Rd =1KHz<br>
+     Vout=1.68879V<br>
+Hence Q point is (VDS,ID)=(1.688V,55.5um)<br>
 </p>
 
 
 **AC ANALYSIS**
 
-![Image](https://github.com/user-attachments/assets/cf399197-91c0-491b-95cd-d5d108f54aae)
-
 <P>
   In AC analysis we determine the frequency response by appluing the small signal analysis to the circuit. we do this analysis to check in which frequency the circuit acts as a linear ampliflier.
-  For this type of sweep we select 'decade', starting frequency as 0.1Hz and stop frequenct as 1THz.
+  For this type of sweep we select 'decade', No of points per decade is 20, starting frequency as 0.1Hz and stop frequency  as 1THz. and by simulating we get a graph. 
 
 </P><br>
 
+
+
+![Image](https://github.com/user-attachments/assets/cf399197-91c0-491b-95cd-d5d108f54aae)
+
+
+
+
+
+
+
+
+
 **TRANSIENT ANALYSIS**
+
+
+
+
 
 ![Image](https://github.com/user-attachments/assets/ae8bf8dd-43b9-4b36-98f7-f1d999f7a36c)
 
 <p>
   In Transient  Analysis we determine the gain of the circuit. For input we give sinusoidal voltage signal where the DC offset is 0.9v peak voltage Vpeak is 50mv, Frequency is 1kHz and AC amplitude is 1V. set the stop time to 3ms.
 </p><br>
+
+
 
 <p>
   Gain = Vin/Vout<br>
@@ -110,8 +133,10 @@ Id = 5.56046e-05     <br>
 
 **INFERENCE**
 <p>
-  Diode connected MOSFET will always be in the Saturation region.
-  From DC analysis we get the dc operation point and confirms whether the mosfet is in saturation region.Transient amalysis shows how the mosfet behave for the time varying Ac signal (sinewave), It shows that ampliflied output with phase shift of 180 degree 
+ Diode connected MOSFET will always be in the Saturation region. From DC analysis we get the dc operation point and confirms whether the mosfet is in saturation region.Transient amalysis  shows how the mosfet behave for the time varying Ac signal (sinewave), It shows that ampliflied output with phase shift of 180 degree.The voltage gain Av can be determined by looking at the ratio of the output to input signal magnitude.
+The AC analysis helps to determine the small signal behaviour like gain.
+These analyses are essential for designing and evaluating the performance of a common-source amplifier.
+  
 </p><br>
 
 **RESULT**
