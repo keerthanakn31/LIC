@@ -109,10 +109,8 @@ Id = 5.56046e-05     <br>
 
 **INFERENCE**
 <p>
-  1.Diode connected MOSFET will always be in the Saturation region
-  2.From DC analysis we get the dc operation point and confirms whether the mosfet is in saturation region 
-  3. Transient amalysis shows how the mosfet behave for the time varying Ac signal (sinewave)
-  4. It shows that ampliflied output with phase shift of 180 degree 
+  Diode connected MOSFET will always be in the Saturation region.
+  From DC analysis we get the dc operation point and confirms whether the mosfet is in saturation region.Transient amalysis shows how the mosfet behave for the time varying Ac signal (sinewave), It shows that ampliflied output with phase shift of 180 degree 
 </p><br>
 
 **RESULT**
