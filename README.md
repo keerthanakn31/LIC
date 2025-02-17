@@ -87,7 +87,6 @@ Id = 5.56046e-05     <br>
   In AC analysis we determine the frequency response by appluing the small signal analysis to the circuit. we do this analysis to check in which frequency the circuit acts as a linear ampliflier.
   For this type of sweep we select 'decade', starting frequency as 0.1Hz and stop frequenct as 1THz.
 
-
 </P><br>
 
 **TRANSIENT ANALYSIS**
