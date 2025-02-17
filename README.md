@@ -8,14 +8,14 @@
 <p>
   This circuit consists of TSMC 180nm Transister ,register and voltage source <br> 
   MOSFET LENGTH : 180nm <br>
-  MOSFET WIDTH :        <br>
+  MOSFET WIDTH :  0.207nm      <br>
   Threshold voltage : 0.36 <br>
   Resister : 2.72K <br>
   Supply voltage : 1.8V <br>
-  Signal generater :    <br>
-  DC voltage :     <br>
-  Amplitude :      <br>
-  Frequency :      <br>  
+  Signal generater : 0.9V   <br>
+  DC voltage : 1.9V     <br>
+  Amplitude :  50mV   <br>
+  Frequency :   1k   <br>  
 </p> <br>
 
 **DC Analysis**
@@ -25,9 +25,9 @@
 
 <p>
 From the analysis we got<br> 
-Vout =    <br>
-Vin =     <br>
-Id =      <br>
+Vout =1.68879V    <br>
+Vin =950mV <br>
+Id = 5.56046e-05     <br>
  If the power dessipation is 100um  across the register ,then 
  currengt  throught the resister is<br>
  Id = 100um/1.8 =55.5um<br>
@@ -50,24 +50,24 @@ Id =      <br>
   </tr>
   <tr>
     <td>180nm</td>
-    <td>1um</td>
-    <td>0.000148351</td>
+    <td>0.1um</td>
+    <td>4.78279e-05</td>
   </tr>
   <tr>
   <td>180nm</td>
-  <td>0.1um</td>
-  <td>4.76342e-05	</td>
+  <td>0.2um</td>
+  <td> 5.48873e-05	</td>
   </tr><br>
   <tr>
     <td>180nm</td>
-    <td>0.19</td>
-    <td>5.36419e-05	</td>
+    <td>0.205</td>
+    <td>5.53984e-05	</td>
   </tr>
   
   <tr>
     <td>180nm</td>
-    <td>0.21um</td>
-    <td> 5.56616e-05</td>
+    <td>0.207um</td>
+    <td> 5.56046e-05</td>
   </tr>
 </table><br>
 
@@ -100,8 +100,8 @@ Id =      <br>
 
 <p>
   Gain = Vin/Vout<br>
-  AV=  <br>
-  This matches the theoritical value which is calculated bt Av = gmRd.<br>
+  AV= 0.5625 <br>
+  This matches the theoritical value which is calculated but Av = gmRd.<br>
   where gm+ KnVov<br>
   From graph we can observe that there is 180 degree phase shift which is exhibitied by CS ampliflier.
   
@@ -117,10 +117,10 @@ Id =      <br>
 
 **RESULT**
 <p>
-  Vout=   <br>
-  Id=     <br>
-  Vin=    <br>
-  Gain=   <br>
+  Vout= 1.68879V  <br>
+  Id=  5.56046e-05     <br>
+  Vin= 950mV   <br>
+  Gain= 0.5625   <br>
   
 </p>
 
